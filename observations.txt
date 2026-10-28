@@ -1,0 +1,55 @@
+Week 9 – Education AI Chatbot
+
+Home Activity: Prompt Comparison Observations
+
+1. Objective
+
+The objective is to compare the responses generated using an original prompt and an improved prompt with the Gemma 3 1B model.
+
+2. Testing Method
+
+Twenty sample questions from conceptual, reasoning, coding, and general categories were used. Each question was tested with both prompts. The responses were saved in "dataset/responses.csv".
+
+3. Results
+
+- Total sample questions: 20
+- Original prompt responses: 20
+- Improved prompt responses: 20
+- Total comparison responses: 40
+
+4. Observations
+
+1. The original prompt asks the chatbot to answer in simple English.
+2. The improved prompt gives more detailed instructions about step-by-step explanations, relevant examples, coding logic, and accuracy.
+3. Both sets of responses can be compared for clarity, relevance, correctness, and usefulness.
+4. The improved prompt may produce more structured answers because it gives clearer instructions.
+5. The improved prompt does not guarantee that every answer is correct. Answers must still be checked for factual accuracy.
+
+5. Conclusion
+
+Prompt engineering helps guide a chatbot's response style and structure. Comparing original and improved prompts helps identify which instructions are more useful for educational questions. The actual response quality should be evaluated using the saved outputs rather than assuming that one prompt is always better.
+6. Strengths of the Chatbot
+
+1. The chatbot answers educational questions using a locally running Gemma model.
+2. It accepts multiple questions in a continuous conversation.
+3. It provides explanations and beginner-friendly coding assistance.
+4. It saves conversation records with timestamps in a CSV file.
+5. It supports testing sample questions using original and improved prompts.
+
+7. Limitations of the Chatbot
+
+1. The chatbot may occasionally provide incorrect or incomplete information.
+2. The quality and detail of answers may vary depending on the question and prompt.
+3. Longer answers are not necessarily more accurate.
+4. The local model must be available through Ollama for the chatbot to work.
+5. Important factual and coding answers should be checked before use.
+
+8. Prompt Improvement
+
+The original prompt asks for simple English answers. The improved prompt adds instructions for step-by-step explanations, relevant examples, coding logic, clear organization, and acknowledging uncertainty.
+
+Both prompts were tested on 20 sample questions, producing 40 comparison responses. The saved answers can be reviewed to identify differences in clarity, completeness, and correctness.
+
+9. Final Conclusion
+
+The Education AI Chatbot demonstrates local LLM integration, continuous conversation, CSV logging, and prompt comparison. The project also shows that better instructions can guide response structure, but actual answers must be evaluated for correctness and usefulness.

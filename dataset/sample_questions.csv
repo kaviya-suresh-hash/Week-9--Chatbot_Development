@@ -1,0 +1,21 @@
+question_id,category,question
+1,Conceptual,What is photosynthesis? Explain in simple English.
+2,Conceptual,What is artificial intelligence? Give one example.
+3,Conceptual,Explain machine learning with a real-life example.
+4,Conceptual,What is a database and why is it used?
+5,Conceptual,Explain the difference between hardware and software.
+6,Reasoning,Why do plants need sunlight to grow?
+7,Reasoning,Why should we use meaningful variable names in programming?
+8,Reasoning,What may happen if a program contains a syntax error?
+9,Reasoning,Why is data backup important?
+10,Reasoning,How can we check whether an online source is reliable?
+11,Coding,What is a variable in Python? Give a simple example.
+12,Coding,Write a simple Python program to add two numbers.
+13,Coding,Explain the purpose of an if statement in Python.
+14,Coding,What is a loop in programming? Give a simple example.
+15,Coding,Find the error in this Python code: print("Hello"
+16,General,Explain the water cycle in simple English.
+17,General,What are three effective study habits for students?
+18,General,Explain the difference between RAM and ROM.
+19,General,What is cybersecurity? Give one example.
+20,General,Explain renewable energy and give two examples.
